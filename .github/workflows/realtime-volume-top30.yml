@@ -1,6 +1,9 @@
 name: Taiwan Stock Realtime Volume TOP30
 
 on:
+  schedule:
+    - cron: '30 2 * * 1-5'
+
   workflow_dispatch:
 
 permissions:
