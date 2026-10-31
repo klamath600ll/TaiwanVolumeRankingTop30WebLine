@@ -291,7 +291,7 @@ def write_web_page(listed_rows, otc_rows, data_time, site_dir="site"):
                 f'<td class="num">{row["amount_est"]:,.0f}</td>'
                 "</tr>"
             )
-        return "\\n".join(rendered)
+        return "\n".join(rendered)
 
     page = f"""<!doctype html>
 <html lang="zh-Hant">
