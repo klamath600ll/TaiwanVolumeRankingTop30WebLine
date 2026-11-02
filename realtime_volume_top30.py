@@ -381,7 +381,7 @@ def send_line_link(site_url):
         "to": user_id,
         "messages": [{
             "type": "text",
-            "text": f"台股即時成交量 TOP 30 已更新\n{site_url}"
+            "text": f"台股即時成交量 TOP 30 已更新 {site_url}"
         }]
     }
     response = requests.post(endpoint, headers=headers, json=payload, timeout=HTTP_TIMEOUT)
