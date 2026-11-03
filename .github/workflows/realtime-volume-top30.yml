@@ -103,7 +103,7 @@ jobs:
               "to": user_id,
               "messages": [{
                   "type": "text",
-                  "text": "台股即時成交量 TOP 30 網頁已更新：\\n" + site_url
+                  "text": "台股即時成交量 TOP 30 網頁已更新：\n" + site_url
               }]
           }
           request = urllib.request.Request(
